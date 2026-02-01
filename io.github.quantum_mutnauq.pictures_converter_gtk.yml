@@ -30,7 +30,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/poppler/poppler.git
-        tag: poppler-25.10.0
+        commit: d3c0e9ca648efbca25a32741ebef9386afc53d1d
+        tag: poppler-26.01.0
     cleanup:
        - '/bin'
 
@@ -39,7 +40,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/hyperrealm/libconfig.git
-        tag: v1.8.1
+        commit: a42cb47c1526a4f2ed025fcbb2289863375bc898
+        tag: v1.8.2
       - type: shell
         commands:
           - autoreconf -i
@@ -53,5 +55,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/Quantum-mutnauQ/pictures_converter_gtk.git
-        commit: 7b31d4cbca0ab50a9ced4d3e79fed41f7d1550b8
-        tag: v1.2
+        commit: 3e28c321ac8eacf3290a493393db227a864ae579
+        tag: v1.3
