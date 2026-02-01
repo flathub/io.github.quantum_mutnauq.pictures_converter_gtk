@@ -30,6 +30,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/poppler/poppler.git
+        commit: d3c0e9ca648efbca25a32741ebef9386afc53d1d
         tag: poppler-26.01.0
     cleanup:
        - '/bin'
@@ -39,6 +40,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/hyperrealm/libconfig.git
+        commit: a42cb47c1526a4f2ed025fcbb2289863375bc898
         tag: v1.8.2
       - type: shell
         commands:
