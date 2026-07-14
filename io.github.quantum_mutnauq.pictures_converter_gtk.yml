@@ -1,6 +1,6 @@
 app-id: io.github.quantum_mutnauq.pictures_converter_gtk
 runtime: org.gnome.Platform
-runtime-version: "49"
+runtime-version: "50"
 sdk: org.gnome.Sdk
 command: pictures-converter
 finish-args:
@@ -30,8 +30,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/poppler/poppler.git
-        commit: d3c0e9ca648efbca25a32741ebef9386afc53d1d
-        tag: poppler-26.01.0
+        commit: b7989c187daee307b782ac4592cddb1ae0677b76
+        tag: poppler-26.07.0
     cleanup:
        - '/bin'
 
@@ -55,5 +55,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/Quantum-mutnauQ/pictures_converter_gtk.git
-        commit: 3e28c321ac8eacf3290a493393db227a864ae579
-        tag: v1.3
+        commit: baf8db6ba80482ab30f7058be680a3012515a069
+        tag: v1.4
