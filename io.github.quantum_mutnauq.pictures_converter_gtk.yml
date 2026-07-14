@@ -30,7 +30,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/poppler/poppler.git
-        commit: d3c0e9ca648efbca25a32741ebef9386afc53d1d
+        commit: b7989c187daee307b782ac4592cddb1ae0677b76
         tag: poppler-26.07.0
     cleanup:
        - '/bin'
